@@ -17,6 +17,7 @@
 #'@export
 
 get_domains <- function(name, country) {
+    school <- place <- NULL
     address <- paste0("http://universities.hipolabs.com/search?name=",
                      tolower(school), "&", tolower(place))
     r <- httr::GET(address)
