@@ -4,7 +4,10 @@ Title: Retrieve University Names
 Version: 0.5.0
 Authors@R: c(person("Charles", "Crabtree", role = c("aut", "cre"),
                      email = "ccrabtr@umich.edu"),
-              person("Volha", "Chykina", role = c("aut")))
+              person("Michelle", "Bellino", role = c("aut")),
+              person("Volha", "Chykina", role = c("aut")),
+              person("Christian", "Davenport", role = c("aut")),
+              person("Kiyoteru", "Tsutsui", role = c("aut")))
 Description: Functions to use the 'Hipo' API <https://github.com/Hipo/university-domains-list-api> for retrieving domain names of universities.
 License: MIT + file LICENSE
 Encoding: UTF-8
