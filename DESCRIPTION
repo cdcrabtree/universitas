@@ -1,17 +1,18 @@
-Package: varo
+Package: universitas
 Type: Package
-Title: Classify Names by Gender
+Title: Retrieve University Names
 Version: 0.5.0
 Authors@R: c(person("Charles", "Crabtree", role = c("aut", "cre"),
                      email = "ccrabtr@umich.edu"),
               person("Volha", "Chykina", role = c("aut")))
-Description: Functions to use the 'NameSor' API <https://api.namsor.com/namsor/faces/viewapikey.xhtml> for classifying names based on gender.
+Description: Functions to use the 'Hipo' API <https://github.com/Hipo/university-domains-list-api> for retrieving domain names of universities.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
     httr,
     RCurl,
+    jsonlite,
     utils
 RoxygenNote: 6.0.1
 Suggests: knitr,
